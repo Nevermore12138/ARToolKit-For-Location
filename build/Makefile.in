@@ -1,0 +1,13 @@
+all:
+	(cd Localization;     make -f Makefile)
+
+clean:
+	(cd Localization;     make -f Makefile clean)
+
+allclean:
+	(cd Localization;     make -f Makefile allclean)
+	rm -f Makefile
+
+distclean:
+	(cd Localization;     make -f Makefile distclean)
+	rm -f Makefile
